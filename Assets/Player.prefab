@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2451908807052203728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9188130758361345242}
+  - component: {fileID: 5229377314425261570}
+  - component: {fileID: 4976095104788640733}
+  - component: {fileID: 2461443276558721117}
+  - component: {fileID: 991214244932104280}
+  - component: {fileID: 4745770724122546618}
+  - component: {fileID: 6126384678942232160}
+  - component: {fileID: 4861241352633449655}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9188130758361345242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1162.3612, y: 631.1853, z: 326.01917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5229377314425261570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4834f812b6b7d47851f360933cc454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DriveWheels:
+  - {fileID: 0}
+  - {fileID: 0}
+  SteerWheels:
+  - {fileID: 0}
+  - {fileID: 0}
+  Throttle: 0
+  Brakes: 0
+  SteerInput: 0
+  Power: 2000
+  RPM: 0
+  ThrottleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.08479248
+      value: 0.6470312
+      inSlope: 1.9612837
+      outSlope: 1.9612837
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.16732161
+      value: 0.8088942
+      inSlope: 0.5354541
+      outSlope: 0.5354541
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.55589896
+    - serializedVersion: 3
+      time: 0.3471699
+      value: 0.92483675
+      inSlope: 0.42778626
+      outSlope: 0.42778626
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2285056
+    - serializedVersion: 3
+      time: 0.6604797
+      value: 0.9382857
+      inSlope: -0.16934282
+      outSlope: -0.16934282
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.49692264
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.88136405
+      value: 0.7113686
+      inSlope: -2.846363
+      outSlope: -2.846363
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9773779
+      value: 0.19558978
+      inSlope: -2.5604303
+      outSlope: -2.5604303
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.65565586
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gear: 1
+  TargetRPM: 5000
+  MaxRPM: 7000
+  GearRatios:
+  - -4.2
+  - 4.2
+  - 3.1
+  - 1.9
+  - 1
+  GearCount: 4
+  HP: 100
+  MaxHP: 100
+  GearboxCooldown: 0
+  points: 0
+  drivetrain: 
+  powerupduration: 0
+  poweruptype: 0
+  Hit: {fileID: 8300000, guid: f86336b9ba5bc084c9afdb55701dcfd8, type: 3}
+  init: 0
+  DeadFX: {fileID: 0}
+  AirTime: 0
+  DefaultMass: 0
+--- !u!114 &4976095104788640733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16270f571b26f4144bfed185fc39ba33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2461443276558721117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bfc873cd48e3bf4cbfd03b5ed284922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupPrefab: {fileID: 7895139541197748747, guid: 06d327c13b73fe147b68e7d2e1870735,
+    type: 3}
+--- !u!114 &991214244932104280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ca9ea7bf94a7d498d3a750c0e85276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4745770724122546618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79268749441ca104283a156709e5cee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numVehicles: 6
+  VehiclePrefab: {fileID: 155788731709962763, guid: c92dcdf353f0c864e81b9ffc81bee4f1,
+    type: 3}
+  HPBarPrefab: {fileID: 1722263003450707541, guid: c6216b326dceca946a3340e672d3b72f,
+    type: 3}
+  SpeedCompensation:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.07802582
+      value: 1.5271835
+      inSlope: -0.0069940146
+      outSlope: -0.0069940146
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 199.66028
+      value: 0.13021088
+      inSlope: -0.0069940146
+      outSlope: -0.0069940146
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SpawnedVehicles: []
+--- !u!114 &6126384678942232160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf1b428585afb6409f2a3563df26a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points: 0
+  Dead: 0
+  Started: 0
+  v: {fileID: 5229377314425261570}
+  vs: {fileID: 4745770724122546618}
+  vc: {fileID: 4976095104788640733}
+  reason: 0
+  Caught: 0
+  WantedLevel: 0
+  AirTime: 0
+--- !u!114 &4861241352633449655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451908807052203728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57e35dc1e478964291e2519e14b26a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 

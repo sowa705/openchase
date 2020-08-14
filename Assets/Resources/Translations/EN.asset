@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d3a08b82821a642bb8beff98451beb, type: 3}
+  m_Name: EN
+  m_EditorClassIdentifier: 
+  LanguageName: English
+  Keys:
+    _Buckets: ffffffff25000000ffffffff0c000000ffffffffffffffff11000000ffffffff01000000ffffffff1b00000035000000ffffffff1c000000ffffffffffffffffffffffff3e000000ffffffffffffffffffffffffffffffffffffffff2c0000003a000000ffffffffffffffffffffffffffffffff0e000000ffffffff1f000000ffffffffffffffff26000000ffffffff39000000ffffffff3d0000003c0000002b000000ffffffff32000000ffffffffffffffffffffffff2e000000ffffffffffffffff38000000ffffffffffffffffffffffffffffffff2d0000000800000030000000ffffffff33000000ffffffff0b000000ffffffff120000001e000000030000000f00000027000000ffffffff360000003100000037000000ffffffffffffffffffffffffffffffff10000000190000002f0000001d0000002a0000003f0000001600000040000000ffffffffffffffffffffffff040000001a00000034000000
+    _HashCodes: 7b6b1a159ae5fc44d92b375c4d07744384f3fa67b2fd1c3bf91aa1303f7d4320711b052a9cbd7a2a13c3ec4cdf67170e4e47231efcd05e34b58f295e944c5e251d48ce1e6f582427908a9d5246cf5c1e918a9d528a8a9d5205c9c26e25a6235628a623567132870506972847f4a2cb0999f4103f07f74d5111e0e30dc4efbf43016eed612fe2a429ea6c99346d2de91e6c209f2c0dae9718d24b1b66eaf3da11a962096a6d5d862cb8e5bb2a733402568f78da452cf21e4829fb87650b55310ebc558531d1b3f835c1da60538391e37a654cfa0899537a2842852058f37a8e188185a85cff0f3e4559fe19686a436b3888cb2c048b88d21a5358e0500eee6f323bc5a071000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    _Next: ffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffffffffffffffffffffffffffffffffffff02000000ffffffffffffffffffffffffffffffffffffffffffffffff06000000ffffffff13000000ffffffffffffffff0a000000ffffffffffffffffffffffff09000000ffffffff1400000017000000ffffffffffffffff150000000700000021000000ffffffff18000000ffffffff23000000ffffffff29000000050000000d000000ffffffffffffffffffffffff22000000ffffffffffffffffffffffff20000000ffffffffffffffff28000000ffffffff24000000ffffffffffffffffffffffffffffffffffffffff3b000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    _Count: 65
+    _Version: 65
+    _FreeList: -1
+    _FreeCount: 0
+    _Keys:
+    - PART_Wheel
+    - PART_WheelCarbon
+    - PART_PaintRed
+    - PART_PaintGreen
+    - PART_PaintBlue
+    - PART_PaintOrange
+    - PART_PaintBlack
+    - PART_PaintGray
+    - PART_PaintWhite
+    - PART_PaintYellow
+    - PART_PaintMagenta
+    - PART_StickerBlue
+    - PART_StickerBlack
+    - PART_StickerWhite
+    - PART_StickerOrange
+    - PART_NormalHeight
+    - PART_HighHeight
+    - PART_LowHeight
+    - PART_Spoiler2
+    - PART_FrontSpoiler1
+    - PART_Spoiler3
+    - PART_Spoiler4
+    - PART_Intake1
+    - PART_Numbers1
+    - PART_Numbers2
+    - PART_Sowirex
+    - PART_StripeWide
+    - PART_StripeDouble
+    - PART_PoliceLights
+    - PART_16d
+    - PART_19tdi
+    - PART_25tdi
+    - PART_36v6
+    - PART_50v8
+    - PART_72v12
+    - PART_BiTurbo
+    - PART_SingleTurbo
+    - PART_LightShield
+    - PART_MediumShield
+    - PART_HeavyShield
+    - PART_FWD
+    - PART_RWD
+    - PART_AWD
+    - PART_Nose
+    - PART_FBInterceptor
+    - TYPE_PoliceLights
+    - TYPE_Spoiler
+    - TYPE_FSpoiler
+    - TYPE_FBumper
+    - TYPE_SuspensionHeight
+    - TYPE_AirIntake
+    - TYPE_Wheels
+    - TYPE_Engine
+    - TYPE_Turbo
+    - TYPE_Shield
+    - TYPE_Drivetrain
+    - TYPE_BodyPaint
+    - TYPE_BaseSticker
+    - TYPE_DecalSticker
+    - TYPE_StickerPaint
+    - CAR_sedan
+    - CAR_bus
+    - CAR_busnew
+    - CAR_muscle
+    - PART_null
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    _Values:
+    - Alloy rims
+    - Carbon rims
+    - Red
+    - Green
+    - Blue
+    - Orange
+    - Black
+    - Gray
+    - White
+    - Yellow
+    - Magenta
+    - Blue
+    - Black
+    - White
+    - Orange
+    - Normal
+    - High
+    - Low
+    - Spoiler 2
+    - Front spoiler 1
+    - Spoiler 3
+    - Spoiler 4
+    - Air Intake
+    - Numbers 1
+    - Numbers 2
+    - Sowirex Trans-PolBud
+    - Wide stripe
+    - Two stripes
+    - Police lights
+    - 1.6 Diesel
+    - 1.9 Diesel
+    - 2.5 Diesel
+    - 3.6 V6
+    - 5.0 V8
+    - 7.2 V12
+    - Bi turbo
+    - Single turbo
+    - Light shield
+    - Medium shield
+    - Heavy shield
+    - FWD
+    - RWD
+    - AWD
+    - Nose
+    - Bullbar
+    - Police lights
+    - Spoilers
+    - Front spoilers
+    - Front bumpers
+    - Suspension height
+    - Air intakes
+    - Wheels
+    - Engine
+    - Turbo
+    - Shield
+    - Drivetrain
+    - Body paint
+    - Base sticker
+    - Decal
+    - Sticker color
+    - Interceptor
+    - Classic bus
+    - Bus
+    - Loader
+    - Remove part
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

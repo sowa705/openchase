@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &155788731709962763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598180485296978465}
+  - component: {fileID: 2964432448462940140}
+  - component: {fileID: 5845672629480023175}
+  - component: {fileID: 2443173200792589007}
+  m_Layer: 0
+  m_Name: PolicePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1598180485296978465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155788731709962763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.349169, y: 1.3326886, z: -20.13132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2964432448462940140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155788731709962763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4834f812b6b7d47851f360933cc454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DriveWheels:
+  - {fileID: 0}
+  - {fileID: 0}
+  SteerWheels:
+  - {fileID: 0}
+  - {fileID: 0}
+  Throttle: 0
+  Brakes: 0
+  SteerInput: 0
+  Power: 3000
+  RPM: 0
+  ThrottleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.091114014
+      value: 0.50084823
+      inSlope: 0.95278454
+      outSlope: 0.95278454
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.38936046
+      value: 0.78501284
+      inSlope: 0.42778626
+      outSlope: 0.42778626
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2285056
+    - serializedVersion: 3
+      time: 0.87773436
+      value: 0.9276465
+      inSlope: -0.16934282
+      outSlope: -0.16934282
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.49692264
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.98787975
+      value: 0.5195901
+      inSlope: -1.753832
+      outSlope: -1.753832
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.086347975
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gear: 1
+  TargetRPM: 5000
+  GearRatios:
+  - -4.2
+  - 4.2
+  - 3.1
+  - 1.9
+  - 1
+  - 0.75
+  - 0.6
+  HP: 50
+  MaxHP: 50
+  points: 0
+  Hit: {fileID: 8300000, guid: f86336b9ba5bc084c9afdb55701dcfd8, type: 3}
+  DeadFX: {fileID: 0}
+--- !u!114 &5845672629480023175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155788731709962763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed73079fed84614f9fda390c32cf845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  Angle: 0
+  TargetSpeed: 0
+  Distance: 0
+  CurrentSpeed: 0
+  Failed: 0
+--- !u!114 &2443173200792589007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155788731709962763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57e35dc1e478964291e2519e14b26a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 

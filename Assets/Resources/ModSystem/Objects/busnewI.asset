@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe516398c2fb59e459336c9f8c919256, type: 3}
+  m_Name: busnewI
+  m_EditorClassIdentifier: 
+  Price: 50000
+  DefaultParts:
+  - Wheel
+  - NormalHeight
+  - StickerBlue
+  - PaintWhite
+  - 19tdi
+  - SingleTurbo
+  - FWD
+  HP: 100
+  Power: 149.5
+  Handling: 60
+  GearCount: 5
+  FinalDriveRatio: 2.2
+  Diesel: 1
+  DriveType: 1
